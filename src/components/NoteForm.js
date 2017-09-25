@@ -23,7 +23,7 @@ class NoteForm extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <input value={this.state.name} onChange={this.onChange} />
+        <input placeholder='Dont add some notes' value={this.state.name} onChange={this.onChange} />
       </form>
     )
   }

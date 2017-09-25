@@ -23,7 +23,7 @@ class StickyForm extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <input value={this.state.name} onChange={this.onChange} />
+        <input placeholder='Add a Sticky' value={this.state.name} onChange={this.onChange} />
       </form>
     )
   }

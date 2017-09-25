@@ -3,7 +3,7 @@ const notes = ( state = [], action ) => {
     case 'NOTES':
       return action.notes
     case 'ADD_NOTES':
-      return [action.sticky, ...state];
+      return [action.note, ...state];
     default:
       return state
   }
