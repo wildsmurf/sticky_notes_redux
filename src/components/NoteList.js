@@ -18,19 +18,3 @@ const mapStateToProps = (state) => {
 }
 
 export default connect(mapStateToProps)(NoteList);
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-const TodoList = ({ todos }) => (
-  <ul>
-    { todos.map( (t,i) => {
-      return (
-        <li key={i}>
-          {t}
-        </li>
-      )
-     })
-    }
-  </ul>
-)
-*/
